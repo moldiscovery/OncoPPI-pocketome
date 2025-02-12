@@ -11,9 +11,9 @@ Notably, this work provides, for the first time, a comprehensive reference datas
 This directory contains .pdb files of proteins, pockets and ligands. 
 There are two directories:
     - [DETACHED](DETACHED): containing detached partners and interface and allosteric-like pockets
-        - DETACHED-PARTNER1 contains the first partner and corresponding pockets
-        - DETACHED-PARTNER2 contains the second partner and corresponding pockets
-    - COMPLEXED: containing complexed partners and equilibrium pockets
+        - [DETACHED-PARTNER1](DETACHED/DETACHED-PARTNER1) contains the first partner and corresponding pockets
+        - [DETACHED-PARTNER2](DETACHED/DETACHED-PARTNER2) contains the second partner and corresponding pockets
+    - [COMPLEXED](COMPLEXED): containing complexed partners and equilibrium pockets
 
     - In each directory of DETACHED-PARTNER1
         - P1_UNIPROT1-UNIPROT2-PDB-chainP1.pdb: protein1
