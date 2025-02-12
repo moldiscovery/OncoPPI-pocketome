@@ -37,7 +37,7 @@ There are two directories:
     - list_equilibrium_pockets.csv
     - list_interface-pockets.csv
 
-	File containing list of allosteric-like, equilibrium and interfacepockets
+	  File containing list of allosteric-like, equilibrium and interfacepockets
 
 2. [IMPLEMENTATION.txt](IMPLEMENTATION.txt)
 It contains command lines used for implementing the pocket collection and computing pocket descriptors.The BioGPS software, containing flap* executables is available from https://www.moldiscovery.com/ and trial licenses are available to both commercial and academic users.
