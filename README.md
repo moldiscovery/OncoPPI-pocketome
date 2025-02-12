@@ -10,7 +10,7 @@ Notably, this work provides, for the first time, a comprehensive reference datas
 1. FILES
 This directory contains .pdb files of proteins, pockets and ligands. 
 There are two directories:
-    - DETACHED: containing detached partners and interface and allosteric-like pockets
+    - [DETACHED](DETACHED): containing detached partners and interface and allosteric-like pockets
         - DETACHED-PARTNER1 contains the first partner and corresponding pockets
         - DETACHED-PARTNER2 contains the second partner and corresponding pockets
     - COMPLEXED: containing complexed partners and equilibrium pockets
@@ -37,7 +37,7 @@ There are two directories:
     - list_equilibrium_pockets.csv
     - list_interface-pockets.csv
 
-	  File containing list of allosteric-like, equilibrium and interfacepockets
+	  File containing list of allosteric-like, equilibrium and interface pockets
 
 2. [IMPLEMENTATION.txt](IMPLEMENTATION.txt)
 It contains command lines used for implementing the pocket collection and computing pocket descriptors.The BioGPS software, containing flap* executables is available from https://www.moldiscovery.com/ and trial licenses are available to both commercial and academic users.
