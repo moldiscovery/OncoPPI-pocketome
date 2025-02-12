@@ -1,0 +1,10 @@
+﻿PROTEIN TREATMENT;POCKET DETECTION; MIFS COMPUTATION (BioGPS software)
+
+# protein pretreatment
+fixpdb --keep-cofactor --remove-all-H --remove-caps --remove-artifacts --remove-junk --remove-unx --remove-unk --remove-all-H2O --remove-hetatm-after-not-M-WT=-1 --remove-BIRDS --remove-small-peptides=20 --unkn-residue-to-grid-types --ccd-db-file=ccd_dictionary.db --split-chains input.pdb1 --pdb-out=output.pdb
+# pocket detection
+flapsite -i output.pdb -op <output_path> -ld duplicates_output.txt -nx
+# Molecular Interaction Fields (MIFs) computation
+flapdbp -cpu 1 -d <MIFs_collection_path> -r 0.75 -gr 2 -i pocket_inchi -gl Pocket_001_output.pdb output.pdb
+# Molecular Interaction Fields (MIFs) descriptors
+flapsite -ps -i protein.pdb  -gl pocket.pdb -o output.txt -nx
