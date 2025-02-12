@@ -1,7 +1,5 @@
 # OncoPPIs-pocketome Repository
 
-OncoPPIs-pocketome Repository
-
 A freely available pockets collection named OncoPPIs-pocketome was built to collect the potential binding sites on Protein-Protein Interaction targets, activated under Cancer condition.
 We provide all 3D protein structures, pockets, and interactors. Three distinct pocket types were identified: 248 interface, 2552 allosteric-like, and 874 equilibrium pockets.  
 An interface pocket is defined by residues of one partner, and contains residues of the other partner. All the other pockets detected on one partners  and not corresponding to interface regions were annotated as allosteric-like pockets. 
@@ -41,8 +39,8 @@ There are two directories:
 
 	File containing list of allosteric-like, equilibrium and interfacepockets
 
-2. IMPLEMENTATION.TXT
+2. [IMPLEMENTATION.TXT](IMPLEMENTATION.TXT)
 It contains command lines used for implementing the pocket collection and computing pocket descriptors.The BioGPS software, containing flap* executables is available from https://www.moldiscovery.com/ and trial licenses are available to both commercial and academic users.
 
-1. README.md, This file
+1. [README.md](README.md), This file
 
