@@ -39,7 +39,7 @@ There are two directories:
 
 	File containing list of allosteric-like, equilibrium and interfacepockets
 
-2. [IMPLEMENTATION.TXT](IMPLEMENTATION.TXT)
+2. [IMPLEMENTATION.txt](IMPLEMENTATION.txt)
 It contains command lines used for implementing the pocket collection and computing pocket descriptors.The BioGPS software, containing flap* executables is available from https://www.moldiscovery.com/ and trial licenses are available to both commercial and academic users.
 
 1. [README.md](README.md), This file
