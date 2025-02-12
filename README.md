@@ -33,9 +33,9 @@ There are two directories:
         - PocRes_*_P1P2_UNIPROT1-UNIPROT2-PDB-chainP1P2.pdb: Pocket residues
 
 1. POCKET LIST
-    - list_allosteric-like-pockets.csv
-    - list_equilibrium_pockets.csv
-    - list_interface-pockets.csv
+    - [list_allosteric-like-pockets.csv](list_allosteric-like-pockets.csv)
+    - [list_equilibrium_pockets.csv](list_equilibrium_pockets.csv)
+    - [list_interface-pockets.csv](list_interface-pockets.csv)
 
 	  File containing list of allosteric-like, equilibrium and interface pockets
 
