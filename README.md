@@ -44,9 +44,10 @@ It contains command lines used for implementing the pocket collection and comput
 
 1. [README.md](README.md), This file
 
-***
+---
 
 If you are satisfied, please cite us:
+
 Target Mapping in Cancer: Ligandable Protein Pockets on 3D OncoPPI Networks
 Trisciuzzi D., Nicolotti O., Cruciani G., Menna G., Siragusa L.
 Pharmaceuticals 2025, 18(7), 958; https://doi.org/10.3390/ph18070958
